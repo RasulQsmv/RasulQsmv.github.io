@@ -1,0 +1,395 @@
+*{
+    font-family: 'Rubik', sans-serif;
+    margin: 0;
+    padding: 0;
+   
+}
+body{
+   color: #FFF;
+   background-color: #121212;
+   
+}
+.logos{
+    margin-top: 30px;
+    height: 130px;
+    border-radius: 5px;
+    background-color: #181818;
+}
+
+
+ul{
+    padding-top: 10px;
+}
+
+.nav-logo ul a{ 
+   
+    color: #FFF;
+    
+    text-decoration: none;
+    list-style: none;
+}
+.nav-logo ul li{
+    
+    margin-top: 20px;
+}
+.container-fluid .library{
+    overflow-y: scroll;
+    
+    height: 81vh;
+    border-radius: 5px;
+    background-color: #181818;
+    margin: 7px 0 30px 0px;
+
+}
+/* Dikey kaydırma çubuğu */
+::-webkit-scrollbar {
+    width: 12px; /* Kaydırma çubuğu genişliği */
+  }
+  
+  
+  
+.lib-head{
+    margin: 0 25px;
+    display: flex;
+    justify-content: space-between;
+}
+.lib-head .head-1{
+    opacity: 0.7;
+    margin-top: 20px;
+    font-size: 19px;
+    font-weight: 700;
+}
+.lib-head .head-2{
+    opacity: 0.7;
+    margin-top: 20px;
+    font-size: 25px;
+}
+.head-2 i{
+    padding-right: 7px;
+}
+.lib-main{
+    height: 2000px;
+    
+}
+.library .head-btn{
+    margin-top: 15px;
+    margin-left: 15px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #FFF;
+    border-radius: 20px;
+    padding: 5px 7px;
+    border: none;
+    background-color: #544f4fe7;
+}
+.library .head-btn:hover{
+    transition: 0.5s;
+    transform: scale(1.1);
+    background-color: #6f6969e7;
+    
+}
+.library .lib-search{
+    padding-left: 12px;
+}
+.library .lib-search:hover{
+    transition: 0.5s;
+    transform: scale(1.1);
+    padding: 12px;
+    border-radius: 50%;
+    background-color: #6f6969e7;
+}
+.library .src-drpd{
+    margin: 0 10px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.library .dropdown{
+    margin-right: 30px;
+    margin-bottom: 20px;
+    
+}
+.lib-list{
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+    align-items: center;
+    display: flex;
+    margin-top: 0px;
+    
+}
+.lib-list img{
+    margin-left: 10px;
+    border-radius: 10px;
+    width: 60px;
+    height: 60px;
+}
+.lib-list .person-pp{
+    margin-left: 10px;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+}
+.ply-name{
+    
+    margin: 13px 0 0 5px;
+}
+.lib-list .ply-name h5{
+    width: 280px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    
+    font-size: 17px;
+    font-weight: 700;
+}
+.ply-name p{
+    font-size: 13px;
+    font-weight: 600;
+
+}
+.lib-list:hover{
+    transition: 0.5s;
+    border-radius: 10px;
+    background-color: #6f6969e7;
+
+}
+.fake{
+    margin-right: 20px;
+    width: 98%;
+    margin-top: 130px;
+}
+
+.main-right{
+    height: 100vh;
+    overflow: hidden;
+    overflow-y: scroll;
+    
+    
+    border-radius: 10px;
+    
+    margin-top: 30px;
+    background-image: linear-gradient(to bottom, #58212194, #300d11, #160a0b, #000000, #000000);
+    
+}
+/* mainn */
+.main-head{
+
+    padding-top: 10px;
+    margin: auto 17px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nagv i{
+    color: white;
+    font-size: 29px;
+    padding: 5px;
+
+}
+
+.profile .pro{
+    margin-right: 10px;
+    width: 160px;
+    font-weight: 700;
+    border: none;
+    padding: 5px;
+    border-radius: 20px;
+}
+.profile .down{
+    
+    width: 190px;
+    font-weight: 700;
+    border: none;
+    padding: 5px;
+    border-radius: 20px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+.profile .down:hover{
+    transition: 0.5s;
+    transform: scale(1.05);
+    
+}
+.profile .pro:hover{
+    transition: 0.5s;
+    transform: scale(1.05);
+    
+}
+
+.profile img{
+    margin: 0 0px;
+    width: 40px;
+    border-radius: 50%;
+}
+.profile .bi-bell{
+    margin: 0 5px;
+    border-radius: 50%;
+    background-color: #181818;
+    color: aliceblue;
+    font-size: 25px;
+    text-decoration: none;
+    list-style: none;
+}
+
+.main-right .main-1{
+    margin-left: 20px;
+}
+.main-right h2{
+    margin-top: 20px;
+
+}
+
+.playlist{
+    overflow: hidden;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 2px;
+    padding: 0;
+    margin-top: 20px;
+    width: 32%;
+    background-color: #434141;
+    height: 80px;
+    
+}
+.playlist img{
+    float: left;
+    width: 80px;
+    
+    height: 80px;
+}
+.playlist h5{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 50%;
+    font-size: 17px;
+    margin-left: 15px;
+    font-weight: 600;
+}
+.playlist a{
+    margin-left: 10px;
+    display: none;
+    padding: 3px 0 0 11px;
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+    width: 50px;
+    height: 50px;
+    background-color: #1db954;
+    border-radius: 50%;
+}
+.playlist:hover > a{
+    transition: 2s;
+    display: block;
+}
+
+
+
+
+
+.spotify-playlists {
+    padding: 20px 10px;
+  }
+  .spotify-playlists h2 {
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+  .spotify-playlists .list {
+    display: flex;
+    gap: 20px;
+    overflow: hidden;
+  }
+  .spotify-playlists .list .item {
+    min-width: 190px;
+    width: 290px;
+    padding: 15px;
+    background-color: #181818;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all ease 0.4s;
+  }
+  .spotify-playlists .list .item:hover {
+    background-color: #252525;
+  }
+  .spotify-playlists .list .item img {
+    height: 153px;
+    width: 100%;
+    border-radius: 6px;
+    margin-bottom: 10px;
+  }
+  .spotify-playlists .list .item .play {
+    position: relative;
+  }
+  .spotify-playlists .list .item .play .fa {
+    color: black;
+    font-size: 15px;
+    position: absolute;
+    right: 10px;
+    top: -60px;
+    padding: 18px;
+    background-color: #1db954;
+    border-radius: 50%;
+    opacity: 0;
+    transition: all ease 0.4s;
+  }
+  .spotify-playlists .list .item:hover .play .fa {
+    opacity: 1;
+    transform: translateY(-20px);
+  }
+  .spotify-playlists .list .item h4 {
+    color: #ffffff;
+    font-size: 14px;
+    margin-bottom: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .spotify-playlists .list .item p {
+    color: #989898;
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 600;
+  }
+  .spotify-playlists hr {
+    margin: 70px 0px 0px;
+    border-color: #636363;
+  }
+
+  .not{
+    display: none;
+    position: absolute;
+    
+  }
+
+
+
+
+
+
+
+
+
+  @media (max-width:902px) {
+    
+    div , img , h1 , h2 , h3 , h5 , p{
+        opacity: 0.4;
+    }
+    .not{
+        font-size: 15px;
+        width: 300px;
+        position: absolute;
+        justify-content: center;
+        margin-top: 300px;
+        margin-left: 20px;
+        
+        text-align: center;
+        align-items: center;
+        display: block;
+        color: white;
+    }
+
+  }
